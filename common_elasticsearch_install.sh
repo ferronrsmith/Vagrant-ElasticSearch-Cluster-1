@@ -6,9 +6,9 @@ sudo apt-get update -y
 sudo apt-get install oracle-java7-installer -y
 java -version
 echo "downloading elasticsearch"
-wget -nc https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.2.1.deb
-echo "installing elasticsearch-1.2.1"
-sudo dpkg -i elasticsearch-1.2.1.deb
+wget -nc https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.2.deb
+echo "installing elasticsearch-1.4.2"
+sudo dpkg -i elasticsearch-1.4.2.deb
 echo "installing elasticsearch marvel"
 sudo /usr/share/elasticsearch/bin/plugin -i elasticsearch/marvel/latest
 echo "installing elasticsearch head"
